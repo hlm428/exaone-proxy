@@ -1,0 +1,8 @@
+name = "exaone-chat-proxy"
+main = "src/worker.js"
+compatibility_date = "2026-11-01"
+
+# 部署：
+#   永久（推荐，免费档每天 10 万次请求）：npx wrangler login && npx wrangler deploy
+#   临时（免登录预览）：npx wrangler deploy --temporary
+# 部署完得到的 https://exaone-chat-proxy.<子域>.workers.dev 就是聊天页里要填的接口地址。
